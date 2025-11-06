@@ -47,6 +47,11 @@ img {
     width: 150px; /* Largura da imagem */
     height: 150px; /* Altura da imagem */
 }
+img:hover{
+    transform: scale(1.05); /* aumenta levemente a imagem ao passar o mouse */
+    transition: transform 0.3 ease; /* animaçao suave*/
+
+}
 
 .foto-legenda {
     font-size: 12px;
